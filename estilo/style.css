@@ -33,7 +33,7 @@ section#login {
     transition: width 0.3s height 0.3s;
     transition-timing-function: ease;
 }
-section#imagem {
+section#login div#imagem {
     display: block;
     background: var(--cor2) url(../imagem/foto.jpg) no-repeat;
     background-size: cover;
