@@ -1,5 +1,5 @@
 :root {
-    --cor1: #94a09d;
+    --cor1: #49a09d;
     --cor2: #5f2c82;
 }
 * {
@@ -30,6 +30,8 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width 0.3s height 0.3s;
+    transition-timing-function: ease;
 }
 section#imagem {
     display: block;
